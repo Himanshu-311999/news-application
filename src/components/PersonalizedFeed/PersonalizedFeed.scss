@@ -1,0 +1,25 @@
+.personalized-feed {
+    padding: 20px;
+  
+    h1 {
+      margin-bottom: 20px;
+    }
+  
+    .articles {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .personalized-feed {
+      padding: 10px;
+  
+      .articles {
+        flex-direction: column;
+        gap: 10px;
+      }
+    }
+  }
+  

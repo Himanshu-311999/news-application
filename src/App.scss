@@ -1,0 +1,12 @@
+
+.app {
+  font-family: 'Arial, sans-serif';
+  color: #333;
+}
+
+@media (max-width: 768px) {
+  .app {
+    padding: 10px;
+  }
+}
+

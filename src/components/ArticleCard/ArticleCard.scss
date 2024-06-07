@@ -1,0 +1,49 @@
+// src/components/ArticleCard.scss
+.article-card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  
+    img {
+      width: 100%;
+      height: auto;
+    }
+  
+    .content {
+      padding: 10px;
+      h2 {
+        font-size: 18px;
+        margin: 10px 0;
+      }
+      p {
+        font-size: 14px;
+        color: #555;
+      }
+      a {
+        text-decoration: none;
+        color: #007bff;
+        font-weight: bold;
+      }
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .article-card {
+      .content {
+        padding: 8px;
+        h2 {
+          font-size: 16px;
+        }
+        p {
+          font-size: 12px;
+        }
+        a {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+  
